@@ -31,13 +31,19 @@
             <li><a href="https://washington.org/" target="_blank">https://washington.org/</a></li>
         </ul>
     </aside>
-    <form>
+    <form class="form" id="form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required placeholder="Enter name">
+
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required placeholder="Enter email address">
+        
+        <label for="conf-email">Confirm Email:</label>
+        <input type="email" id="conf-email" name="conf-email" required placeholder="Confirm email address">
+        
         <label for="question">Question:</label>
         <textarea id="question" name="question" rows="5" placeholder="Enter a question"></textarea>
+        
         <button id="btn">Submit</button>
     </form>
     <script src="index.js"></script>
