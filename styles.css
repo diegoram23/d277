@@ -13,6 +13,14 @@ li{
     font-size: 1.4rem;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
 ol {
     display: flex;
     gap: 3em;
