@@ -22,6 +22,12 @@ header {
     color: #fff;
 }
 
+nav {
+    position: absolute;
+    left: 50%;
+    top: 3%;
+}
+
 ul, q {
     margin-left: 2em;
 }
@@ -51,6 +57,8 @@ a:visited {
 h1 {
     margin: 0;
     border-bottom: 3px solid #2d2d2d;
+    position: relative;
+    top: 3%;
 }
 
 h2 {
