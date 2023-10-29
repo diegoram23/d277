@@ -22,6 +22,10 @@ header {
     color: #fff;
 }
 
+ul, q {
+    margin-left: 2em;
+}
+
 li{
     font-size: 1.4rem;
 }
